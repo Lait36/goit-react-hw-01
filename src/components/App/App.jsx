@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div>
       <Profile userData={userData} />
-      <FriendList item={friends} />
+      <FriendList friends={friends} />
       <TransactionHistory items={items} />
     </div>
   );
